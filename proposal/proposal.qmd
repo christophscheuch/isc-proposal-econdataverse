@@ -1,4 +1,4 @@
-# The proposal
+# The Proposal
 
 <!--
 This is where the proposal should be outlined. 
