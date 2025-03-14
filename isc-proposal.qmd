@@ -1,11 +1,10 @@
 ---
-title: "Proposal Title"
+title: "econdataverse: A universe of packages to work seamlessly with economic data "
 author: 
-  - name: Annie Easley
-    orcid: 5555-5555-5555-5555
+  - name: Christoph Scheuch
+    orcid: 0009-0004-0423-6819
     affiliations:
-      - "Lewis Research Center, National Aeronautics and Space Administration"
-    
+      - "Independent"
 date: today
 date-format: iso
 format:

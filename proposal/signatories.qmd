@@ -6,17 +6,29 @@ An optional section would be for R-Core signatories where changes to R are propo
 -->
 
 ## Project team
+
 <!-- 
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
 
+The core project team consists of:
+
+- Project Lead: Christoph Scheuch, Founder of Tidy Intelligence, with extensive experience in economic data analysis and software development
+- Lead Developer: Christopher Smith, President of Promptly Technologies, a seasoned R and Python developer with a background in data engineering
+- Lead Analyst: Teal Emery, Founder of Teal Insights, a research consultant with 10+ years of experience working with international development data
+
 ## Contributors
+
 <!-- 
 Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
 -->
 
+TODO: ask & add contributors
+
 ## Consulted
+
 <!-- 
 Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
 -->
 
+TODO: ask & add ISC members

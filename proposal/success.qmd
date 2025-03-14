@@ -8,17 +8,32 @@ Projects should have a definition of done that is measurable, and a thorough und
 What does success look like? 
 -->
 
+- The `econdataverse` meta-package and its underlying core packages published to CRAN 
+- Function documentation and vignettes available via `pkgdown` websites
+- 90%+ test coverage for all released packages
+- At least 1,000 CRAN downloads within three months of release for `econdataverse`
+
 ## Measuring success
+
 <!-- 
 How will we know when success is achieved, what markers can we use along the way 
 -->
 
+- User adoption: number of CRAN downloads of `econdataverse` packages using `cranlogs`
+
 ## Future work
+
 <!-- 
 How could this be extended / developed in the future by yourself and/or the community in general?
 -->
 
+- Expand support for additional economic data sources
+- Develop Shiny apps for interactive data visualization using economic data
+- Create educational materials for economics courses using R
+- Implement advanced features like automatic data updating and versioning
+
 ## Key risks
+
 <!-- 
 What sort of things could come up that can delay or break the project?
 
@@ -28,3 +43,7 @@ What sort of things could come up that can delay or break the project?
  - [ ] Costs
 
 -->
+
+- Unexpected API changes and data access restrictions
+- Lack of community engagement from users and contributors
+- Difficulty maintaining packages long-term due to maintainers becoming unavailable

@@ -1,6 +1,7 @@
 # Project plan
 
 ## Start-up phase
+
 <!--
 Covering the planning phase, this section should provide a relatively detailed plan of how work will start on the project. This section is important because projects need to get up and running quickly.
 
@@ -10,15 +11,33 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Reporting framework
 -->
 
+June 2025:
+
+- Set up a dedicated GitHub organization with clear contribution guidelines
+- Migrate the existing website to the new organization
+- Initialize the `econdataverse` package and collect open issues
+- Outline a roadmap with milestones and meeting schedule
 
 ## Technical delivery
+
 <!--
 Covering the actual delivery of the project this section should provide at least a high-level the implementation. 
 
 Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
 -->
 
+July - August 2025:
+
+- Resolve issues in existing core packages based on user feedback
+- Release missing core packages to CRAN and collect user feedback
+- Work on documentation for core packages and the `econdataverse` paclage
+
+September 2025:
+
+- Release `econdataverse` package to CRAN
+
 ## Other aspects
+
 <!--
 Covering non-technical activities like on-going publicity, paper preparation, discussion groups etc. that might be required to facilitate successful delivery of the project.
 
@@ -28,3 +47,7 @@ Covering non-technical activities like on-going publicity, paper preparation, di
  - [ ] UseR!
  - [ ] ISC meetings
 -->
+
+- Announce the release of each packags on LinkedIn and BlueSky
+- Create blog posts for individual packages releases (e.g. tidy-intelligence.com) and include them in [R Weekly newsletters](https://rweekly.org/)
+- Submit the `econdataverse` project for the UseR! 2026 conference, posit::conf(2026), and EARL 2026

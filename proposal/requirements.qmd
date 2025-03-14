@@ -1,19 +1,27 @@
 # Requirements
+
 <!-- 
 An idea of what is required to make the project actually happen
 -->
 
 ## People
+
 <!--
 Who needs to be involved, what's the proposed structure, what will it take to get their involvement?
 -->
 
+Our team possesses all necessary skills to execute this project successfully. We remain open to welcoming additional contributors throughout the development process.
+
 ## Processes
+
 <!-- 
 What processes need to be put in place e.g. codes of conduct, regular ISC meetings, handover to the community at large?
 -->
 
+The project requires a clear code of conduct that provides guidlines for contributors to existing packages and developing new packages, as well as succession plans should any maintainer need to transition away from the project.
+
 ## Tools & Tech
+
 <!--
 What is going to be needed to deliver this project? 
 
@@ -22,13 +30,28 @@ Will cloud computing be used - if yes are there are necessary components that wi
 Are there tools or tech that don't exist that will be produced to facilitate the project?
 -->
 
+All required tools and technologies are established and readily accessible:: 
+
+- GitHub for version control, issue management, and collaboration
+- GitHub Actions for automated testing via `testthat` and code coverage analysis with `covr`
+- GitHub Pages for comprehensive documentation generated through `pkgdown`
+
 ## Funding
+
 <!-- 
 [TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
 
 -->
 
+Financial resources will support developer and maintainer compensation, ensuring dedicated time for package development and documentation. To secure the project team's full commitment during the 4-month timeline, we require:
+
+- $10,000 for development activities
+- $5,000 for documentation efforts
+
 ## Summary
+
 <!--
 A summary of the requirements that contextualises the costs
 -->
+
+Currently, our only constraint is securing funding for development and documentation. As our team comprises independent developers and researchers, financial support is essential to enable the allocation of sufficient resources to ensure project success.

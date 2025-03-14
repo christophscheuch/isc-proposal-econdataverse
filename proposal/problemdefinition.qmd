@@ -1,10 +1,5 @@
----
-bibliography: references.bib
----
-
 # The Problem
 
-```{=html}
 <!-- 
 Outlining the issue / weak point / problem to be solved by this proposal. This should be a compelling section that sets the reader up for the next section - the proposed solution!
 
@@ -15,5 +10,7 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-```
-An example in-text citation [@wickham2016].
+
+Economic data is essential for research and policy analysis, yet it remains highly fragmented, inconsistently formatted, and difficult to access efficiently through R. While some data is available through public APIs, a significant portion exists in static formats such as spreadsheets and reports, requiring time-consuming manual processing. Analysts and researchers working with multi-source economic data face inefficiencies due to disparate tools with varying designs, syntaxes, and usability.
+
+This challenge is particularly evident in sovereign debt analysis, where crucial datasets - such as the World Bank’s International Debt Statistics - are publicly available but require extensive cleaning and transformation before use. Organizations often spend tens of thousands of dollars annually on commercial data platforms that primarily provide better interfaces to freely available data. Existing tools for accessing economic data are fragmented and lack standardization, leading to redundant efforts and inefficiencies in data workflows.
