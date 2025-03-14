@@ -1,6 +1,6 @@
 # isc-proposal
 
-[![build-status](https://github.com/christophscheuch/isc-proposal-econdataverse/actions/workflows/publish-proposal.yaml/badge.svg)](https://github.com/YOUR-USERNAME/YOUR-REPOSITORY/actions/workflows/publish-proposal.yaml)
+[![build-status](https://github.com/christophscheuch/isc-proposal-econdataverse/actions/workflows/publish-proposal.yaml/badge.svg)](https://github.com/christophscheuch/isc-proposal-econdataverse/actions/workflows/publish-proposal.yaml)
 
 This repository contains a proposal for the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) of the [R Consortium](https://www.r-consortium.org) based on the template provided via [github.com/RConsortium/isc-proposal](https://github.com/RConsortium/isc-proposal).
 
