@@ -2,7 +2,7 @@
 
 [![build-status](https://github.com/christophscheuch/isc-proposal-econdataverse/actions/workflows/publish-proposal.yaml/badge.svg)](https://github.com/christophscheuch/isc-proposal-econdataverse/actions/workflows/publish-proposal.yaml)
 
-This repository contains a proposal for the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) of the [R Consortium](https://www.r-consortium.org) based on the template provided via [github.com/RConsortium/isc-proposal](https://github.com/RConsortium/isc-proposal).
+This repository contains a proposal for the [ISC Grant Program](https://r-consortium.org/all-projects/callforproposals.html) of the [R Consortium](https://www.r-consortium.org) based on the template provided via [github.com/RConsortium/isc-proposal](https://github.com/RConsortium/isc-proposal). The proposal is available [here](https://christophscheuch.github.io/isc-proposal-econdataverse/).
 
 The `econdataverse` initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying modern software engineering principles to streamline workflows and enhance reproducibility. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
 
