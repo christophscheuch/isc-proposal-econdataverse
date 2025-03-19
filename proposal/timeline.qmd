@@ -29,8 +29,8 @@ Including target dates is really important as you need to be committed and the I
 July - August 2025:
 
 - Resolve issues in existing core packages based on user feedback
-- Release missing core packages to CRAN and collect user feedback
-- Work on documentation for core packages and the `econdataverse` paclage
+- Release missing core packages to CRAN and collect additional user feedback
+- Work on documentation for core packages and the `econdataverse` package
 
 September 2025:
 

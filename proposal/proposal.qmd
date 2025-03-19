@@ -15,6 +15,7 @@ The `econdataverse` initiative was conceived as a unified ecosystem of packages 
 This initiative will directly benefit the R community by:
 
 - Supporting reproducible research with standardized access to economic data
+- Providind programmatic access to novel data sources
 - Lowering the learning curve for working with economic data sources
 - Creating a scalable foundation for advanced economic data analysis
 
@@ -35,13 +36,13 @@ The project will develop modular R packages, each targeting major economic data 
 - `wbwdi` (released to CRAN on 2025-02-25): World Bank World Development Indicators (WDI) API, a large number of country or region-level indicators for various contexts
 - `owidapi` (released to CRAN on 2025-02-27): Our World in Data (OWID) API, open-source data for long-term economic trends and social indicators
 - `uisapi` (released to CRAN on 2025-03-06): UNESCO Institute of Statistics (UIS) API, education and research data relevant for policy analysis
-- `imfweo` (in development): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
+- `imfweo` (planned): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
 - `oecdoda` (planned): OECD Official Development Assistance (ODA), aid flow and development finance tracking
 
-Additional supporting tools to address cross-source compatibility and ease of use are in development:
+Additional supporting tools to address cross-source compatibility and ease of use:
 
 - `econid` (in development): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
-- `econtools` (in development): common economic data analysis utilities
+- `econtools` (planned): common economic data analysis utilities
 
 ### Minimum Viable Product
 
@@ -51,7 +52,7 @@ For the initial release of `econdataverse`, we will focus on:
 - Core packages for combining and analyzing economic data (`econid`, `econtools`)
 - A unified meta-package ensuring seamless cross-source access (`econdataverse`)
 - Documentation and vignettes that combine multiple data sources for modeling and visualizations
-- Compliance with CRAN guidelines
+- Compliance with the CRAN Repository Policy
 
 ### Architecture
 
@@ -59,5 +60,5 @@ The `econdataverse` employs a modular architecture that maximizes efficiency and
 
 ### Assumptions
 
-- Data formats from sources won’t undergo major breaking changes
+- Data sources won’t undergo major breaking changes with respect to accessability
 - The R community values consistent interfaces and tidy data approaches

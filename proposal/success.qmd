@@ -9,7 +9,7 @@ What does success look like?
 -->
 
 - The `econdataverse` meta-package and its underlying core packages published to CRAN 
-- Function documentation and vignettes available via `pkgdown` websites
+- Function documentation, vignettes, and articles available via `pkgdown` websites
 - 90%+ test coverage for all released packages
 - At least 1,000 CRAN downloads within three months of release for `econdataverse`
 
@@ -45,5 +45,5 @@ What sort of things could come up that can delay or break the project?
 -->
 
 - Unexpected API changes and data access restrictions
-- Lack of community engagement from users and contributors
+- Lack of user engagement
 - Difficulty maintaining packages long-term due to maintainers becoming unavailable
