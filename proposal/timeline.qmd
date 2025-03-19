@@ -14,7 +14,7 @@ Covering the planning phase, this section should provide a relatively detailed p
 June 2025:
 
 - Set up a dedicated GitHub organization with clear contribution guidelines
-- Migrate the existing website to the new organization
+- Migrate the existing [website](https://www.econdataverse.org/) to the new organization
 - Initialize the `econdataverse` package and collect open issues
 - Outline a roadmap with milestones and meeting schedule
 
