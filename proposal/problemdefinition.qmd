@@ -11,7 +11,17 @@ It is important to cover:
  - [ ] Why it should be tackled
 -->
 
-Economic data is essential for research and policy analysis, yet it remains highly fragmented, inconsistently formatted, and difficult to access efficiently through R. While some data is available through public APIs, a significant portion exists in static formats such as spreadsheets and reports, requiring time-consuming manual processing. Analysts and researchers working with multi-source economic data face inefficiencies due to disparate tools with varying designs, syntaxes, and usability.
+# The Problem
 
-This challenge is particularly evident in sovereign debt analysis, where crucial datasets - such as the World Bank’s International Debt Statistics - are publicly available but require extensive cleaning and transformation before use. Organizations often spend tens of thousands of dollars annually on commercial data platforms that primarily provide better interfaces to freely available data. Existing tools for accessing economic data through R are fragmented and lack standardization, leading to redundant efforts and inefficiencies in data workflows. Moreover, some data sources are not even covered by existing packages, further complicating access and integration.
+Economic data is essential for research and policy analysis, yet it remains highly fragmented, inconsistently formatted, and difficult to access efficiently through R. While some data is available through public APIs, a significant portion exists in static formats such as spreadsheets and reports, requiring time-consuming manual processing.
+
+This challenge has profound real-world consequences. Decision-makers in developing countries often lack the resources to process complex economic data effectively, forcing them to:
+
+1. Pay tens of thousands of dollars annually for commercial data platforms (like HAVER Analytics) that merely provide better interfaces to freely available data
+2. Hire expensive external consultants to perform basic data integration tasks
+3. Make critical policy decisions with incomplete or outdated information
+
+For example, in sovereign debt sustainability analysis, policymakers must integrate World Bank debt statistics with IMF economic forecasts to evaluate sustainability. A task that should take minutes can consume hours or days of analyst time reconciling inconsistent country codes, standardizing formats, and validating calculations. This inefficiency is compounded every time a new data source needs to be integrated or when analysis must be updated with new releases.
+
+These challenges not only waste resources but also significantly impair the ability of governments, particularly in resource-constrained environments, to respond to pressing economic, climate, and social challenges with evidence-based policies.
 
