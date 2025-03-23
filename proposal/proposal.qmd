@@ -10,14 +10,31 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
-The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying modern software engineering principles to streamline workflows and enhance reproducibility. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
+The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
 
-This initiative will directly benefit the R community by:
+This initiative emerged directly from our work developing tools for economic policymakers in developing countries who are navigating critical climate investment decisions during periods of high debt stress. The project addresses a fundamental gap in the data infrastructure needed to support evidence-based economic policy.
+
+The econdataverse will serve two distinct groups:
+
+1. **Direct users** of R packages: Technical staff at international organizations, researchers, economists, and data analysts in developing country economic policymaking institutions who need efficient access to economic data
+
+2. **Indirect beneficiaries**: High-level policymakers without R programming skills who will gain access to insights through Shiny applications, parameterized reports, and other interfaces powered by econdataverse packages
+
+By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, econdataverse will create a foundation for both technical analysis and accessible policy tools.
+
+This initiative will deliver direct benefits including:
 
 - Supporting reproducible research with standardized access to economic data
-- Providind programmatic access to novel data sources
+- Providing programmatic access to novel data sources
 - Lowering the learning curve for working with economic data sources
 - Creating a scalable foundation for advanced economic data analysis
+- Democratizing access to critical economic data for policymakers in developing countries
+- Enabling faster, more informed responses to economic and climate challenges
+- Saving organizations thousands of dollars in commercial data subscription costs
+
+### Real-World Impact: Tools for Economic Policymakers
+
+The econdataverse initiative is already demonstrating practical impact through the [Debt Path Explorer](https://tealinsights.shinyapps.io/nature_finance_debt_dynamics_app/), the first of several tools we're developing for economic policymakers from climate-vulnerable countries ([V20](https://www.v-20.org/)). This web application, powered by our [`imfweo`](https://teal-insights.github.io/imfweo/) package, helps policymakers understand how sustainability targets could affect their debt trajectories without expensive data subscriptions or consultant fees. It transforms complex economic data into accessible insights and will be presented to policymakers for feedback at the spring IMF/World Bank Meetings, enabling rapid refinement based on real user needs.
 
 ## Detail
 <!--
