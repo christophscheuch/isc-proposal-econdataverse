@@ -64,12 +64,13 @@ Additional supporting tools to address cross-source compatibility and ease of us
 
 - `econid` (in development): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
 - `econtools` (planned): common economic data analysis utilities
+- `imfifs` (planned): IMF International Financial Statistics (IFS), country-level financial stability data
 
 ### Minimum Viable Product
 
 For the initial release of `econdataverse`, we will focus on:
 
-- Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA)
+- Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA, IFS)
 - Core packages for combining and analyzing economic data (`econid`, `econtools`)
 - A unified meta-package ensuring seamless cross-source access (`econdataverse`)
 - Documentation and vignettes that combine multiple data sources for modeling and visualizations
