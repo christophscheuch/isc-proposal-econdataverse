@@ -9,7 +9,7 @@
 <meta name="author" content="Christoph Scheuch">
 <meta name="author" content="Teal Emery">
 <meta name="author" content="Christopher C. Smith">
-<meta name="dcterms.date" content="2025-03-19">
+<meta name="dcterms.date" content="2025-03-23">
 
 <title>econdataverse: A Universe of Packages to Work Seamlessly with Economic Data</title>
 <style>
@@ -3098,7 +3098,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-03-19</p>
+      <p class="date">2025-03-23</p>
     </div>
   </div>
   
@@ -3123,11 +3123,16 @@ An optional section would be for R-Core signatories where changes to R are propo
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
 <p>The core project team consists of:</p>
+</section>
+<section id="project-team-1" class="level2">
+<h2 class="anchored" data-anchor-id="project-team-1">Project team</h2>
+<p>The core project team combines technical expertise with domain knowledge in economic policy and finance:</p>
 <ul>
-<li>Project Lead: Christoph Scheuch, Founder of Tidy Intelligence, with extensive experience in economic data analysis and software development</li>
-<li>Lead Developer: Christopher Smith, President of Promptly Technologies, a seasoned R and Python developer with a background in data engineering</li>
-<li>Lead Analyst: Teal Emery, Founder of Teal Insights, a research consultant with 10+ years of experience working with international development data</li>
+<li><p><strong>Project Lead</strong>: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of “Tidy Finance with R” and “Tidy Finance with Python.” Previously, he served as Head of Business Intelligence &amp; Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.</p></li>
+<li><p><strong>Lead Developer</strong>: Christopher Smith, President of Promptly Technologies, is a seasoned R and Python developer who helped revamp the imfr package, a critical tool for R users accessing International Monetary Fund data. His background in data engineering and expertise in API development are essential for building reliable economic data pipelines.</p></li>
+<li><p><strong>Lead Analyst</strong>: Teal Emery, Founder of Teal Insights, advises countries and institutions on sovereign debt and climate finance issues while building open-source tools to improve policy analysis. He is an Adjunct Lecturer in International Finance at Johns Hopkins SAIS and previously worked at the World Bank and Morgan Stanley Investment Management researching emerging markets.</p></li>
 </ul>
+<p>This unique blend of financial expertise, software engineering skills, and domain knowledge in economic policy ensures the econdataverse will meet the practical needs of both technical users and policymakers.</p>
 </section>
 <section id="contributors" class="level2">
 <h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
@@ -3156,8 +3161,18 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-<p>Economic data is essential for research and policy analysis, yet it remains highly fragmented, inconsistently formatted, and difficult to access efficiently through R. While some data is available through public APIs, a significant portion exists in static formats such as spreadsheets and reports, requiring time-consuming manual processing. Analysts and researchers working with multi-source economic data face inefficiencies due to disparate tools with varying designs, syntaxes, and usability.</p>
-<p>This challenge is particularly evident in sovereign debt analysis, where crucial datasets - such as the World Bank’s International Debt Statistics - are publicly available but require extensive cleaning and transformation before use. Organizations often spend tens of thousands of dollars annually on commercial data platforms that primarily provide better interfaces to freely available data. Existing tools for accessing economic data through R are fragmented and lack standardization, leading to redundant efforts and inefficiencies in data workflows. Moreover, some data sources are not even covered by existing packages, further complicating access and integration.</p>
+</section>
+<section id="the-problem-1" class="level1">
+<h1>The Problem</h1>
+<p>Economic data is essential for research and policy analysis, yet it remains highly fragmented, inconsistently formatted, and difficult to access efficiently through R. While some data is available through public APIs, a significant portion exists in static formats such as spreadsheets and reports, requiring time-consuming manual processing.</p>
+<p>This challenge has profound real-world consequences. Decision-makers in developing countries often lack the resources to process complex economic data effectively, forcing them to:</p>
+<ol type="1">
+<li>Pay tens of thousands of dollars annually for commercial data platforms that merely provide better interfaces to freely available data</li>
+<li>Hire expensive external consultants to perform basic data integration tasks</li>
+<li>Make critical policy decisions with incomplete or outdated information</li>
+</ol>
+<p>For example, in sovereign debt sustainability analysis, policymakers must integrate World Bank debt statistics with IMF economic forecasts to evaluate sustainability. A task that should take minutes can consume hours or days of analyst time reconciling inconsistent country codes, standardizing formats, and validating calculations. This inefficiency is compounded every time a new data source needs to be integrated or when analysis must be updated with new releases.</p>
+<p>These challenges not only waste resources but also significantly impair the ability of governments, particularly in resource-constrained environments, to respond to pressing economic, climate, and social challenges with evidence-based policies.</p>
 </section>
 <section id="the-proposal" class="level1">
 <h1>The Proposal</h1>
@@ -3169,14 +3184,28 @@ This is where the proposal should be outlined.
 <!--
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
-<p>The <a href="https://www.econdataverse.org/"><code>econdataverse</code></a> initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying modern software engineering principles to streamline workflows and enhance reproducibility. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.</p>
-<p>This initiative will directly benefit the R community by:</p>
+<p>The <a href="https://www.econdataverse.org/"><code>econdataverse</code></a> initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.</p>
+<p>This initiative emerged directly from our work developing tools for economic policymakers in developing countries who are navigating critical climate investment decisions during periods of high debt stress. The project addresses a fundamental gap in the data infrastructure needed to support evidence-based economic policy.</p>
+<p>The econdataverse will serve two distinct groups:</p>
+<ol type="1">
+<li><p><strong>Direct users</strong> of R packages: Technical staff at international organizations, researchers, economists, and data analysts in developing country economic policymaking institutions who need efficient access to economic data</p></li>
+<li><p><strong>Indirect beneficiaries</strong>: High-level policymakers without R programming skills who will gain access to insights through Shiny applications, parameterized reports, and other interfaces powered by econdataverse packages</p></li>
+</ol>
+<p>By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, econdataverse will create a foundation for both technical analysis and accessible policy tools.</p>
+<p>This initiative will deliver direct benefits including:</p>
 <ul>
 <li>Supporting reproducible research with standardized access to economic data</li>
-<li>Providind programmatic access to novel data sources</li>
+<li>Providing programmatic access to novel data sources</li>
 <li>Lowering the learning curve for working with economic data sources</li>
 <li>Creating a scalable foundation for advanced economic data analysis</li>
+<li>Democratizing access to critical economic data for policymakers in developing countries</li>
+<li>Enabling faster, more informed responses to economic and climate challenges</li>
+<li>Saving organizations thousands of dollars in commercial data subscription costs</li>
 </ul>
+<section id="real-world-impact-tools-for-economic-policymakers" class="level3">
+<h3 class="anchored" data-anchor-id="real-world-impact-tools-for-economic-policymakers">Real-World Impact: Tools for Economic Policymakers</h3>
+<p>The econdataverse initiative is already demonstrating practical impact through the <a href="https://tealinsights.shinyapps.io/nature_finance_debt_dynamics_app/">Debt Path Explorer</a>, the first of several tools we’re developing for economic policymakers from climate-vulnerable countries (<a href="https://www.v-20.org/">V20</a>). This web application, powered by our <a href="https://teal-insights.github.io/imfweo/"><code>imfweo</code></a> package, helps policymakers understand how sustainability targets could affect their debt trajectories without expensive data subscriptions or consultant fees. It transforms complex economic data into accessible insights and will be presented to policymakers for feedback at the spring IMF/World Bank Meetings, enabling rapid refinement based on real user needs.</p>
+</section>
 </section>
 <section id="detail" class="level2">
 <h2 class="anchored" data-anchor-id="detail">Detail</h2>
@@ -3195,7 +3224,7 @@ Depending on project type the detail section should include:
 <li><code>wbwdi</code> (released to CRAN on 2025-02-25): World Bank World Development Indicators (WDI) API, a large number of country or region-level indicators for various contexts</li>
 <li><code>owidapi</code> (released to CRAN on 2025-02-27): Our World in Data (OWID) API, open-source data for long-term economic trends and social indicators</li>
 <li><code>uisapi</code> (released to CRAN on 2025-03-06): UNESCO Institute of Statistics (UIS) API, education and research data relevant for policy analysis</li>
-<li><code>imfweo</code> (planned): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance</li>
+<li><code>imfweo</code> (prototyped on GitHub): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance</li>
 <li><code>oecdoda</code> (planned): OECD Official Development Assistance (ODA), aid flow and development finance tracking</li>
 </ul>
 <p>Additional supporting tools to address cross-source compatibility and ease of use:</p>
@@ -3216,7 +3245,8 @@ Depending on project type the detail section should include:
 </section>
 <section id="architecture" class="level3">
 <h3 class="anchored" data-anchor-id="architecture">Architecture</h3>
-<p>The <code>econdataverse</code> employs a modular architecture that maximizes efficiency and maintainability while ensuring seamless integration across diverse data sources. Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.</p>
+<p>The <code>econdataverse</code> employs a modular architecture inspired by the principle that “big things get built by making strong, durable building blocks.” Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.</p>
+<p>This architectural approach enables both immediate practical applications and future expansion, allowing the components to be recombined in ways we haven’t yet imagined to tackle emerging economic challenges.</p>
 </section>
 <section id="assumptions" class="level3">
 <h3 class="anchored" data-anchor-id="assumptions">Assumptions</h3>
