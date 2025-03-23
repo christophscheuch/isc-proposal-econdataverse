@@ -53,7 +53,7 @@ The project will develop modular R packages, each targeting major economic data 
 - `wbwdi` (released to CRAN on 2025-02-25): World Bank World Development Indicators (WDI) API, a large number of country or region-level indicators for various contexts
 - `owidapi` (released to CRAN on 2025-02-27): Our World in Data (OWID) API, open-source data for long-term economic trends and social indicators
 - `uisapi` (released to CRAN on 2025-03-06): UNESCO Institute of Statistics (UIS) API, education and research data relevant for policy analysis
-- `imfweo` (planned): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
+- `imfweo` (prototyped on GitHub): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
 - `oecdoda` (planned): OECD Official Development Assistance (ODA), aid flow and development finance tracking
 
 Additional supporting tools to address cross-source compatibility and ease of use:
@@ -73,7 +73,9 @@ For the initial release of `econdataverse`, we will focus on:
 
 ### Architecture
 
-The `econdataverse` employs a modular architecture that maximizes efficiency and maintainability while ensuring seamless integration across diverse data sources. Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
+The `econdataverse employs` a modular architecture inspired by the principle that "big things get built by making strong, durable building blocks." Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
+
+This architectural approach enables both immediate practical applications and future expansion, allowing the components to be recombined in ways we haven't yet imagined to tackle emerging economic challenges.
 
 ### Assumptions
 
