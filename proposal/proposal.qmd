@@ -57,12 +57,12 @@ The project will develop modular R packages, each targeting major economic data 
 - `wbwdi` (released to CRAN on 2025-02-25): World Bank World Development Indicators (WDI) API, a large number of country or region-level indicators for various contexts
 - `owidapi` (released to CRAN on 2025-02-27): Our World in Data (OWID) API, open-source data for long-term economic trends and social indicators
 - `uisapi` (released to CRAN on 2025-03-06): UNESCO Institute of Statistics (UIS) API, education and research data relevant for policy analysis
+- `econid` (released to CRAN on 2025-03-18): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
 - `imfweo` (prototyped on GitHub): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
 - `oecdoda` (planned): OECD Official Development Assistance (ODA), aid flow and development finance tracking
 
 Additional supporting tools to address cross-source compatibility and ease of use:
 
-- `econid` (in development): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
 - `econtools` (planned): common economic data analysis utilities
 - `imfifs` (planned): IMF International Financial Statistics (IFS), country-level financial stability data
 
