@@ -17,7 +17,7 @@ The core project team consists of:
 
 The core project team combines technical expertise with domain knowledge in economic policy and finance:
 
-- **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Head of Artificial Intelligence at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
+- **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Head of Business Intelligence & Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
 
 - **Lead Developer**: Christopher Smith, President of Promptly Technologies, is a seasoned R and Python developer who helped revamp the imfr package, a critical tool for R users accessing International Monetary Fund data. His background in data engineering and expertise in API development are essential for building reliable economic data pipelines.
 

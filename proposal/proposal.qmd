@@ -73,7 +73,7 @@ For the initial release of `econdataverse`, we will focus on:
 
 ### Architecture
 
-The `econdataverse employs` a modular architecture inspired by the principle that "big things get built by making strong, durable building blocks." Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
+The `econdataverse` employs a modular architecture inspired by the principle that "big things get built by making strong, durable building blocks." Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
 
 This architectural approach enables both immediate practical applications and future expansion, allowing the components to be recombined in ways we haven't yet imagined to tackle emerging economic challenges.
 

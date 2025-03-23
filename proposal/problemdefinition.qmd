@@ -17,11 +17,10 @@ Economic data is essential for research and policy analysis, yet it remains high
 
 This challenge has profound real-world consequences. Decision-makers in developing countries often lack the resources to process complex economic data effectively, forcing them to:
 
-1. Pay tens of thousands of dollars annually for commercial data platforms (like HAVER Analytics) that merely provide better interfaces to freely available data
+1. Pay tens of thousands of dollars annually for commercial data platforms that merely provide better interfaces to freely available data
 2. Hire expensive external consultants to perform basic data integration tasks
 3. Make critical policy decisions with incomplete or outdated information
 
 For example, in sovereign debt sustainability analysis, policymakers must integrate World Bank debt statistics with IMF economic forecasts to evaluate sustainability. A task that should take minutes can consume hours or days of analyst time reconciling inconsistent country codes, standardizing formats, and validating calculations. This inefficiency is compounded every time a new data source needs to be integrated or when analysis must be updated with new releases.
 
 These challenges not only waste resources but also significantly impair the ability of governments, particularly in resource-constrained environments, to respond to pressing economic, climate, and social challenges with evidence-based policies.
-
