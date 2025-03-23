@@ -1,6 +1,7 @@
 # History files
 .Rhistory
 .Rapp.history
+.specstory
 
 # Example code in package build process
 *-Ex.R
@@ -16,3 +17,4 @@ vignettes/*.pdf
 # File gen artefacts
 *.html
 *.pdf
+*.txt

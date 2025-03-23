@@ -10,9 +10,11 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
-The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
+The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, we significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
 
 This initiative emerged directly from our work developing tools for economic policymakers in developing countries who are navigating critical climate investment decisions during periods of high debt stress. The project addresses a fundamental gap in the data infrastructure needed to support evidence-based economic policy.
+
+### Audience
 
 The econdataverse will serve two distinct groups:
 
@@ -20,7 +22,9 @@ The econdataverse will serve two distinct groups:
 
 2. **Indirect beneficiaries**: High-level policymakers without R programming skills who will gain access to insights through Shiny applications, parameterized reports, and other interfaces powered by econdataverse packages
 
-By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, econdataverse will create a foundation for both technical analysis and accessible policy tools.
+By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, the econdataverse will create a foundation for both technical analysis and accessible policy tools.
+
+### Motivation
 
 This initiative will deliver direct benefits including:
 
@@ -73,7 +77,7 @@ For the initial release of `econdataverse`, we will focus on:
 
 ### Architecture
 
-The `econdataverse employs` a modular architecture inspired by the principle that "big things get built by making strong, durable building blocks." Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
+The `econdataverse` employs a modular architecture inspired by the principle that "big things get built by making strong, durable building blocks." Each package features robust CI/CD pipelines and comprehensive unit tests that quickly identify and isolate potential issues. Users can selectively load individual packages rather than the entire suite, eliminating unnecessary dependencies and optimizing resource utilization.
 
 This architectural approach enables both immediate practical applications and future expansion, allowing the components to be recombined in ways we haven't yet imagined to tackle emerging economic challenges.
 

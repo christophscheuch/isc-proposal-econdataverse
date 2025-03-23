@@ -11,10 +11,6 @@ An optional section would be for R-Core signatories where changes to R are propo
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
 
-The core project team consists of:
-
-## Project team
-
 The core project team combines technical expertise with domain knowledge in economic policy and finance:
 
 - **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Head of Artificial Intelligence at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
