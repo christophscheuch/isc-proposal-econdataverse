@@ -10,9 +10,11 @@ This is where the proposal should be outlined.
 At a high-level address what your proposal is and how it will address the problem identified. Highlight any benefits to the R Community that follow from solving the problem. This should be your most compelling section.
 -->
 
-The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, it will significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
+The [`econdataverse`](https://www.econdataverse.org/) initiative was conceived as a unified ecosystem of packages for economic data access and analysis, applying the proven principle that big things get built by creating strong, durable building blocks that can be reliably stacked together. By enforcing consistent function naming, tidy data formats, and cross-source compatibility, we significantly reduce the time spent on data acquisition and preparation and facilitate the creation of reproducible workflows.
 
 This initiative emerged directly from our work developing tools for economic policymakers in developing countries who are navigating critical climate investment decisions during periods of high debt stress. The project addresses a fundamental gap in the data infrastructure needed to support evidence-based economic policy.
+
+### Audience
 
 The econdataverse will serve two distinct groups:
 
@@ -20,7 +22,9 @@ The econdataverse will serve two distinct groups:
 
 2. **Indirect beneficiaries**: High-level policymakers without R programming skills who will gain access to insights through Shiny applications, parameterized reports, and other interfaces powered by econdataverse packages
 
-By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, econdataverse will create a foundation for both technical analysis and accessible policy tools.
+By building rock-solid data infrastructure components with comprehensive unit tests, continuous integration, and detailed documentation, the econdataverse will create a foundation for both technical analysis and accessible policy tools.
+
+### Motivation
 
 This initiative will deliver direct benefits including:
 
@@ -53,19 +57,20 @@ The project will develop modular R packages, each targeting major economic data 
 - `wbwdi` (released to CRAN on 2025-02-25): World Bank World Development Indicators (WDI) API, a large number of country or region-level indicators for various contexts
 - `owidapi` (released to CRAN on 2025-02-27): Our World in Data (OWID) API, open-source data for long-term economic trends and social indicators
 - `uisapi` (released to CRAN on 2025-03-06): UNESCO Institute of Statistics (UIS) API, education and research data relevant for policy analysis
+- `econid` (released to CRAN on 2025-03-18): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
 - `imfweo` (prototyped on GitHub): IMF World Economic Outlook (WEO), global economic projections and country-level economic performance
 - `oecdoda` (planned): OECD Official Development Assistance (ODA), aid flow and development finance tracking
 
 Additional supporting tools to address cross-source compatibility and ease of use:
 
-- `econid` (in development): standardization and conversion utilities for country, region, and institution identifiers used in economic datasets
 - `econtools` (planned): common economic data analysis utilities
+- `imfifs` (planned): IMF International Financial Statistics (IFS), country-level financial stability data
 
 ### Minimum Viable Product
 
 For the initial release of `econdataverse`, we will focus on:
 
-- Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA)
+- Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA, IFS)
 - Core packages for combining and analyzing economic data (`econid`, `econtools`)
 - A unified meta-package ensuring seamless cross-source access (`econdataverse`)
 - Documentation and vignettes that combine multiple data sources for modeling and visualizations

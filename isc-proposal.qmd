@@ -1,14 +1,16 @@
 ---
-title: "econdataverse: A Universe of Packages to Work Seamlessly with Economic Data "
+title: "econdataverse: A Universe of Packages to Work Seamlessly with Economic Data"
 author: 
   - name: Christoph Scheuch
     orcid: 0009-0004-0423-6819
     affiliations:
       - "Tidy Intelligence"
   - name: Teal Emery
+    orcid: 0009-0002-4804-2202
     affiliations:
       - "Teal Insights"
   - name: Christopher C. Smith
+    orcid: 0009-0008-1756-612X
     affiliations:
       - "Promptly Technologies"
 date: today
