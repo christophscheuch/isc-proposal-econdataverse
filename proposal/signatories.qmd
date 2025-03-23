@@ -13,9 +13,17 @@ Who are the people responsible for actually delivering the project if the propos
 
 The core project team consists of:
 
-- Project Lead: Christoph Scheuch, Founder of Tidy Intelligence, with extensive experience in economic data analysis and software development
-- Lead Developer: Christopher Smith, President of Promptly Technologies, a seasoned R and Python developer with a background in data engineering
-- Lead Analyst: Teal Emery, Founder of Teal Insights, a research consultant with 10+ years of experience working with international development data
+## Project team
+
+The core project team combines technical expertise with domain knowledge in economic policy and finance:
+
+- **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Head of Artificial Intelligence at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
+
+- **Lead Developer**: Christopher Smith, President of Promptly Technologies, is a seasoned R and Python developer who helped revamp the imfr package, a critical tool for R users accessing International Monetary Fund data. His background in data engineering and expertise in API development are essential for building reliable economic data pipelines.
+
+- **Lead Analyst**: Teal Emery, Founder of Teal Insights, advises countries and institutions on sovereign debt and climate finance issues while building open-source tools to improve policy analysis. He is an Adjunct Lecturer in International Finance at Johns Hopkins SAIS and previously worked at the World Bank and Morgan Stanley Investment Management researching emerging markets.
+
+This unique blend of financial expertise, software engineering skills, and domain knowledge in economic policy ensures the econdataverse will meet the practical needs of both technical users and policymakers.
 
 ## Contributors
 
