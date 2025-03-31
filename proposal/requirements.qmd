@@ -43,7 +43,7 @@ All required tools and technologies are established and readily accessible::
 
 -->
 
-Financial resources will support developer and maintainer compensation, ensuring dedicated time for package development and documentation. To secure the project team's full commitment during the 4-month timeline, we require:
+Financial resources will support developer and maintainer compensation, ensuring dedicated time for package development and documentation. To secure the project team's commitment during the 4-month timeline, we require:
 
 - $7000 for development activities
 - $3000 for documentation efforts

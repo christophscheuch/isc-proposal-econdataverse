@@ -5,34 +5,16 @@ This section provides the ISC with a view of the support received from the commu
 An optional section would be for R-Core signatories where changes to R are proposed.
 -->
 
-## Project team
+<!-- ## Project team -->
 
 <!-- 
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
 
-The core project team combines technical expertise with domain knowledge in economic policy and finance:
+The core project team combines technical expertise with domain knowledge in economic policy, software engineering, and product management to ensure that the project will meet the practical needs of both technical users and policymakers:
 
-- **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Head of Business Intelligence & Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
+- **Project Lead**: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of "Tidy Finance with R" and "Tidy Finance with Python." Previously, he served as Director of Product and Head of Business Intelligence & Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.
 
 - **Lead Developer**: Christopher C. Smith, President of Promptly Technologies, holds a PhD in Religion from Claremont Graduate University and is a seasoned R and Python developer. He revamped the `imfr` package, a critical tool for R users accessing International Monetary Fund data. His background in data engineering and his expertise in API and SDK development will be essential for building reliable economic data pipelines.
 
 - **Lead Analyst**: Teal Emery, Founder of Teal Insights, advises countries and institutions on sovereign debt and climate finance issues while building open-source tools to improve policy analysis. He is an Adjunct Lecturer in International Finance at Johns Hopkins SAIS and previously worked at the World Bank and Morgan Stanley Investment Management researching emerging markets.
-
-This unique blend of financial expertise, software engineering skills, and domain knowledge in economic policy ensures the econdataverse will meet the practical needs of both technical users and policymakers.
-
-## Contributors
-
-<!-- 
-Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
--->
-
-TODO: ask & add contributors
-
-## Consulted
-
-<!-- 
-Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
--->
-
-TODO: ask & add ISC members

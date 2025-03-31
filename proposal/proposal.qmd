@@ -26,8 +26,6 @@ By building rock-solid data infrastructure components with comprehensive unit te
 
 ### Motivation
 
-This initiative will deliver direct benefits including:
-
 - Supporting reproducible research with standardized access to economic data
 - Providing programmatic access to novel data sources
 - Lowering the learning curve for working with economic data sources
@@ -73,7 +71,7 @@ For the initial release of `econdataverse`, we will focus on:
 - Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA, IFS)
 - Core packages for combining and analyzing economic data (`econid`, `econtools`)
 - A unified meta-package ensuring seamless cross-source access (`econdataverse`)
-- Documentation and vignettes that combine multiple data sources for modeling and visualizations
+- Articles that combines multiple data sources for modeling and visualizations
 - Compliance with the CRAN Repository Policy
 
 ### Architecture

@@ -44,6 +44,8 @@ What sort of things could come up that can delay or break the project?
 
 -->
 
-- Unexpected API changes and data access restrictions
 - Lack of user engagement
+- Unexpected API changes and data access restrictions
 - Difficulty maintaining packages long-term due to maintainers becoming unavailable
+
+# References
