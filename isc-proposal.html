@@ -9,7 +9,7 @@
 <meta name="author" content="Christoph Scheuch">
 <meta name="author" content="Teal Emery">
 <meta name="author" content="Christopher C. Smith">
-<meta name="dcterms.date" content="2025-03-23">
+<meta name="dcterms.date" content="2025-03-31">
 
 <title>econdataverse: A Universe of Packages to Work Seamlessly with Economic Data</title>
 <style>
@@ -3118,7 +3118,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025-03-23</p>
+      <p class="date">2025-03-31</p>
     </div>
   </div>
   
@@ -3137,32 +3137,16 @@ This section provides the ISC with a view of the support received from the commu
 
 An optional section would be for R-Core signatories where changes to R are proposed.
 -->
-<section id="project-team" class="level2">
-<h2 class="anchored" data-anchor-id="project-team">Project team</h2>
+<!-- ## Project team -->
 <!-- 
 Who are the people responsible for actually delivering the project if the proposal gets accepted and are already signed up and rearing to go?
 -->
-<p>The core project team combines technical expertise with domain knowledge in economic policy and finance:</p>
+<p>The core project team combines technical expertise with domain knowledge in economic policy, software engineering, and product management to ensure that the project will meet the practical needs of both technical users and policymakers:</p>
 <ul>
-<li><p><strong>Project Lead</strong>: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of “Tidy Finance with R” and “Tidy Finance with Python.” Previously, he served as Head of Business Intelligence &amp; Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.</p></li>
+<li><p><strong>Project Lead</strong>: Christoph Scheuch, Founder of Tidy Intelligence, holds a PhD in Finance from Vienna Graduate School of Finance and is the co-author of “Tidy Finance with R” and “Tidy Finance with Python.” Previously, he served as Director of Product and Head of Business Intelligence &amp; Data Science at wikifolio.com and has extensive experience transforming complex financial data into elegant, efficient solutions.</p></li>
 <li><p><strong>Lead Developer</strong>: Christopher C. Smith, President of Promptly Technologies, holds a PhD in Religion from Claremont Graduate University and is a seasoned R and Python developer. He revamped the <code>imfr</code> package, a critical tool for R users accessing International Monetary Fund data. His background in data engineering and his expertise in API and SDK development will be essential for building reliable economic data pipelines.</p></li>
 <li><p><strong>Lead Analyst</strong>: Teal Emery, Founder of Teal Insights, advises countries and institutions on sovereign debt and climate finance issues while building open-source tools to improve policy analysis. He is an Adjunct Lecturer in International Finance at Johns Hopkins SAIS and previously worked at the World Bank and Morgan Stanley Investment Management researching emerging markets.</p></li>
 </ul>
-<p>This unique blend of financial expertise, software engineering skills, and domain knowledge in economic policy ensures the econdataverse will meet the practical needs of both technical users and policymakers.</p>
-</section>
-<section id="contributors" class="level2">
-<h2 class="anchored" data-anchor-id="contributors">Contributors</h2>
-<!-- 
-Who are the people who have actively helped with this proposal but won't necessarily be on the core project team later?
--->
-<p>TODO: ask &amp; add contributors</p>
-</section>
-<section id="consulted" class="level2">
-<h2 class="anchored" data-anchor-id="consulted">Consulted</h2>
-<!-- 
-Who has been given the opportunity to provide feedback on the proposal? This should include any R Consortium & ISC members who the proposal has been discussed with.
--->
-<p>TODO: ask &amp; add ISC members</p>
 <!-- 
 Outlining the issue / weak point / problem to be solved by this proposal. This should be a compelling section that sets the reader up for the next section - the proposed solution!
 
@@ -3173,7 +3157,6 @@ It is important to cover:
  - [ ] Have there been previous attempts to resolve the problem
  - [ ] Why it should be tackled
 -->
-</section>
 </section>
 <section id="the-problem" class="level1">
 <h1>The Problem</h1>
@@ -3212,7 +3195,6 @@ At a high-level address what your proposal is and how it will address the proble
 </section>
 <section id="motivation" class="level3">
 <h3 class="anchored" data-anchor-id="motivation">Motivation</h3>
-<p>This initiative will deliver direct benefits including:</p>
 <ul>
 <li>Supporting reproducible research with standardized access to economic data</li>
 <li>Providing programmatic access to novel data sources</li>
@@ -3261,7 +3243,7 @@ Depending on project type the detail section should include:
 <li>Core packages for the primary data sources (IDS, WDI, OWID, UIS, WEO, ODA, IFS)</li>
 <li>Core packages for combining and analyzing economic data (<code>econid</code>, <code>econtools</code>)</li>
 <li>A unified meta-package ensuring seamless cross-source access (<code>econdataverse</code>)</li>
-<li>Documentation and vignettes that combine multiple data sources for modeling and visualizations</li>
+<li>Articles that combines multiple data sources for modeling and visualizations</li>
 <li>Compliance with the CRAN Repository Policy</li>
 </ul>
 </section>
@@ -3291,12 +3273,14 @@ Covering the planning phase, this section should provide a relatively detailed p
  - [ ] Licence decisions
  - [ ] Reporting framework
 -->
-<p>June 2025:</p>
+<ul>
+<li>June 2025:
 <ul>
 <li>Set up a dedicated GitHub organization with clear contribution guidelines</li>
 <li>Migrate the existing <a href="https://www.econdataverse.org/">website</a> to the new organization</li>
 <li>Initialize the <code>econdataverse</code> package and collect open issues</li>
 <li>Outline a roadmap with milestones and meeting schedule</li>
+</ul></li>
 </ul>
 </section>
 <section id="technical-delivery" class="level2">
@@ -3306,15 +3290,17 @@ Covering the actual delivery of the project this section should provide at least
 
 Including target dates is really important as you need to be committed and the ISC need to have a means of tracking delivery
 -->
-<p>July - August 2025:</p>
+<ul>
+<li>July - August 2025:
 <ul>
 <li>Resolve issues in existing core packages based on user feedback</li>
 <li>Release missing core packages to CRAN and collect additional user feedback</li>
 <li>Work on documentation for core packages and the <code>econdataverse</code> package</li>
-</ul>
-<p>September 2025:</p>
+</ul></li>
+<li>September 2025:
 <ul>
-<li>Release <code>econdataverse</code> package to CRAN</li>
+<li>Release stable version of <code>econdataverse</code> package to CRAN</li>
+</ul></li>
 </ul>
 </section>
 <section id="other-aspects" class="level2">
@@ -3329,9 +3315,9 @@ Covering non-technical activities like on-going publicity, paper preparation, di
  - [ ] ISC meetings
 -->
 <ul>
-<li>Announce the release of each packags on LinkedIn and BlueSky</li>
+<li>Announce the release of each package on LinkedIn and BlueSky</li>
 <li>Create blog posts for individual packages releases (e.g. tidy-intelligence.com) and include them in <a href="https://rweekly.org/">R Weekly newsletters</a></li>
-<li>Submit the <code>econdataverse</code> project for the UseR! 2026 conference, posit::conf(2026), and EARL 2026</li>
+<li>Submit the <code>econdataverse</code> project for the 2026 UseR!, posit::conf(), and EARL</li>
 </ul>
 </section>
 </section>
@@ -3376,7 +3362,7 @@ Are there tools or tech that don't exist that will be produced to facilitate the
 [TO DO] THE GUIDANCE IS PRETTY UNCLEAR, ESP IN LIGHT OF GABOR'S PROPOSAL VS AWARD SIZE
 
 -->
-<p>Financial resources will support developer and maintainer compensation, ensuring dedicated time for package development and documentation. To secure the project team’s full commitment during the 4-month timeline, we require:</p>
+<p>Financial resources will support developer and maintainer compensation, ensuring dedicated time for package development and documentation. To secure the project team’s commitment during the 4-month timeline, we require:</p>
 <ul>
 <li>$7000 for development activities</li>
 <li>$3000 for documentation efforts</li>
@@ -3440,15 +3426,18 @@ What sort of things could come up that can delay or break the project?
 
 -->
 <ul>
-<li>Unexpected API changes and data access restrictions</li>
 <li>Lack of user engagement</li>
+<li>Unexpected API changes and data access restrictions</li>
 <li>Difficulty maintaining packages long-term due to maintainers becoming unavailable</li>
 </ul>
+</section>
+</section>
+<section id="references" class="level1">
+<h1>References</h1>
 <div class="refs">
 
 </div>
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
